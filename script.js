@@ -84,7 +84,7 @@ var loserStatsMessage = function (userWinCounter, kkWinCounter) {
   )}%) and you won ${userWinCounter} matches (${percentage(
     userWinCounter
   )}%). You are a sore loser. Battle Kakashi again to get the upper hand!<br> 
-Declare Janken or Jutsu to start the next battle.`;
+Declare Janken or Jutsu to start the next battle!`;
   return message;
 };
 
