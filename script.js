@@ -264,6 +264,7 @@ var main = function (input, input2) {
         myOutputValue
       );
       gameState = 0;
+      noShuriken = 0;
       drawState = 0;
       if (userWinCounter < kkWinCounter) {
         myOutputValue += loserStatsMessage(userWinCounter, kkWinCounter);
