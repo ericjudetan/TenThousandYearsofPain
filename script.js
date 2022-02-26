@@ -34,7 +34,7 @@ var jutsuDeclare = [
 ];
 var jutsuDamage = [
   "the intense burn",
-  "thousand paper cuts",
+  "a thousand paper cuts",
   "a twitching stab wound",
   "blunt force trauma",
   "nearly being drowned",
@@ -464,7 +464,7 @@ var main = function (input, input2) {
       )}${jutsuDeclare[userChoiceValue]}.<br>
       Kakashi casts ${getJutsuElementIcon(kkElement)}${
         jutsuDeclare[kkChoiceValue]
-      }, which overwhelms your ${input2} technique.<br> You LOSE this fight!! Kakashi watches as you struggle to deal with the ${
+      }, which overwhelms your ${input2} technique.<br> You LOSE this fight!! Kakashi watches as you struggle to deal with ${
         jutsuDamage[kkChoiceValue]
       }.`;
       kkWinCounter += 1;
