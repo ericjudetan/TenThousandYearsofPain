@@ -34,7 +34,7 @@ var jutsuDeclare = [
 ];
 var jutsuDamage = [
   "the intense burn",
-  "a thousand paper cuts",
+  "thousand paper cuts",
   "a twitching stab wound",
   "blunt force trauma",
   "nearly being drowned",
@@ -67,7 +67,7 @@ var percentage = function (winCounter) {
 
 //Win Messages
 var jankenWinMessage = `<br>His eyes widen in fear 👀 as you seize the advantage and shimmer behind him.<br>He pleads "NO!" as you inflict a Thousand Years of Pain 💥💥💥.`;
-var jankenLossMessage = `<br>... suddenly, you see Kakashi behind you, a moment too late.<br>He whispers: "A Thousand Years of Pain" 💥💥💥.<br>It hurts, it really hurts.`;
+var jankenLossMessage = `<br>... suddenly you see Kakashi behind you, a moment too late.<br>He whispers: "A Thousand Years of Pain" 💥💥💥.<br>It hurts, it really hurts.`;
 var winnerStatsMessage = function (userWinCounter, kkWinCounter) {
   var message = `<br><br>In total, you won ${userWinCounter} matches (${percentage(
     userWinCounter
@@ -103,7 +103,7 @@ One of your Shurikens grazed past his face, tearing off his face mask. Kakashi i
 };
 
 var shurikenLossMessage = function (shurikenTossCount) {
-  var message = `You tossed ${shurikenTossCount} wave(s) of shurikens at Kakashi, but Kakashi nullifies all of them with his own shurikens and it, he's gone...`;
+  var message = `You tossed ${shurikenTossCount} wave(s) of shurikens at Kakashi, but Kakashi nullifies all of them with his own shurikens and *poof* he's gone...`;
   return message;
 };
 
